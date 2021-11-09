@@ -1,0 +1,37 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    margin: 5px;
+    background-color: rgb(20,20,20);
+}
+
+.wave {
+    fill: rgb(0,0,0);
+    width: 100vw;
+    height: 45vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer{
+    position: relative;
+    bottom: -20%;
+}
+
+/**/
+
+
+h1:hover{
+    font-size : 600%;
+    text-shadow: 10px 10px rgb(0,0,0);
+}
+
+li:hover{
+    font-weight: bold;  
+    color:rgb(255,255,255);
+}
+
+.active{
+    font-weight: bold;
+}
